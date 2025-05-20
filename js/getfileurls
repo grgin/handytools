@@ -1,0 +1,4 @@
+document.querySelectorAll('a[href$=".svg"]').svgLinks.forEach(link => {
+    const svgUrl = link.getAttribute('href'); 
+    console.log(window.location.href+svgUrl); 
+});
